@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         b_18Percent = findViewById(R.id.btnEighteenPercent);
         b_20Percent = findViewById(R.id.btnTwentyPercent);
 
-        //On CLick event of button 15%
+        //On Click event of button 15%
         b_15Percent.setOnClickListener(view -> {
             try {
                 tipAmount = 0.00;
@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //On CLick event of button 18%
+        //On Click event of button 18%
         b_18Percent.setOnClickListener(view -> {
             try {
                 tipAmount = 0.00;
@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //On CLick event of button 20%
+        //On Click event of button 20%
         b_20Percent.setOnClickListener(view -> {
             try {
                 tipAmount = 0.00;
